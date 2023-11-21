@@ -58,4 +58,36 @@ t=add(5,6);
 function add(x,y){
    p= x+y;
    return p;
-}
+};
+
+const testfonk= adiniz=> 'selam' + adiniz; 
+console.log(testfonk('berkan'));
+
+const test3 =(a,b)=> {
+    let c= a*b;
+    return c;
+};
+console.log(test3(2,4));
+
+// Veri çok satırlıysa
+const test1=(texxt) => (
+`
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h1>Selam</h1>
+
+    <script src="main.js"></script>
+</body>
+</html>
+`
+
+);
+console.log(test1());
